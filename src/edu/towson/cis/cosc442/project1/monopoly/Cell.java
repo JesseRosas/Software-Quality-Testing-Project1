@@ -2,21 +2,21 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 public abstract class Cell {
 	private boolean available = true;
-	private String theOwner;
+	private String name;
 	protected Player theOwner;
 
 	/** 
 	 * @return String
 	 */
 	public String getName() {
-		return theOwner;
+		return name;
 	}
 
 	/** 
 	 * @return Player
 	 */
 	public Player getTheOwner() {
-		return theOwner;
+		return name;
 	}
 	
 	/** 
@@ -46,20 +46,20 @@ public abstract class Cell {
 	 * @param name
 	 */
 	void setName(String name) {
-		this.theOwner = name;
+		this.name = name;
 	}
 
 	/** 
 	 * @param owner
 	 */
 	public void setTheOwner(Player owner) {
-		this.theOwner = owner;
+		this.name = owner;
 	}
     
     /** 
 	 * @return String
 	 */
 	public String toString() {
-        return theOwner;
+        return name;
     }
 }
