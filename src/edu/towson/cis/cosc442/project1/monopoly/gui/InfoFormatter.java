@@ -4,6 +4,9 @@ import java.util.Hashtable;
 
 import edu.towson.cis.cosc442.project1.monopoly.*;
 
+/**
+ * Represents the InfoFormatter component of the Monopoly application.
+ */
 public class InfoFormatter {
     static Hashtable<Class<?>, CellInfoFormatter> cellInfoFormatters = null;
     

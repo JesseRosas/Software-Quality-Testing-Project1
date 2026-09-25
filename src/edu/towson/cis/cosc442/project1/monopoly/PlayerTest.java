@@ -2,6 +2,12 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 import junit.framework.TestCase;
 
+/**
+ * Represents the PlayerTest component of the Monopoly application.
+ */
+/**
+ * Represents the PlayerTest component of the Monopoly application.
+ */
 public class PlayerTest extends TestCase {
 
 	GameMaster gameMaster;
@@ -23,7 +29,7 @@ public class PlayerTest extends TestCase {
 		assertEquals("Blue 3", player.getProperty(0).getName());
 		PropertyCell cell =
 			(PropertyCell) gameMaster.getGameBoard().queryCell("Blue 3");
-		assertSame(player, cell.getOwner());
+		assertSame(player, cell.getTheOwner());
 	}
 
 	public void testSameGoCell() {

@@ -4,11 +4,14 @@ import edu.towson.cis.cosc442.project1.monopoly.Cell;
 import edu.towson.cis.cosc442.project1.monopoly.Player;
 import edu.towson.cis.cosc442.project1.monopoly.RailRoadCell;
 
+/**
+ * Represents the RRCellInfoFormatter component of the Monopoly application.
+ */
 public class RRCellInfoFormatter implements CellInfoFormatter {
     public String format(Cell cell) {
         RailRoadCell c = (RailRoadCell)cell;
         StringBuffer buf = new StringBuffer();
-        Player owner = cell.getOwner();
+        Player owner = cell.getTheOwner();
         String ownerName = "";
         if(owner != null) {
         	ownerName = owner.getName();

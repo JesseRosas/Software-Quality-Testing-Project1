@@ -10,6 +10,9 @@ import edu.towson.cis.cosc442.project1.monopoly.RespondDialog;
 import edu.towson.cis.cosc442.project1.monopoly.TradeDeal;
 
 
+/**
+ * Represents the GUIRespondDialog component of the Monopoly application.
+ */
 public class GUIRespondDialog extends JDialog implements RespondDialog {
     /**
 	 * 

@@ -3,6 +3,9 @@ package edu.towson.cis.cosc442.project1.monopoly;
 import junit.framework.TestCase;
 
 
+/**
+ * Represents the GameboardTest component of the Monopoly application.
+ */
 public class GameboardTest extends TestCase {
 
 	Cell cell;

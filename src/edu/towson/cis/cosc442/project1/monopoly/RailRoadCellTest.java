@@ -2,6 +2,9 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 import junit.framework.TestCase;
 
+/**
+ * Represents the RailRoadCellTest component of the Monopoly application.
+ */
 public class RailRoadCellTest extends TestCase {
 	GameMaster gameMaster;
 	

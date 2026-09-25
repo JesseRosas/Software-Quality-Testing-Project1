@@ -9,6 +9,9 @@ import javax.swing.*;
 
 import edu.towson.cis.cosc442.project1.monopoly.*;
 
+/**
+ * Represents the GUITradeDialog component of the Monopoly application.
+ */
 public class GUITradeDialog extends JDialog implements TradeDialog {
     /**
 	 * 

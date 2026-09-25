@@ -14,6 +14,9 @@ import javax.swing.JLabel;
 import edu.towson.cis.cosc442.project1.monopoly.Player;
 
 
+/**
+ * Represents the BuyHouseDialog component of the Monopoly application.
+ */
 public class BuyHouseDialog extends JDialog {
 	/**
 	 * 

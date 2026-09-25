@@ -3,6 +3,9 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 import junit.framework.TestCase;
 
+/**
+ * Represents the PropertyCellTest component of the Monopoly application.
+ */
 public class PropertyCellTest extends TestCase {
 
 	GameMaster gameMaster;

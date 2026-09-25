@@ -1,5 +1,8 @@
 package edu.towson.cis.cosc442.project1.monopoly;
 
+/**
+ * Represents the Cell component of the Monopoly application.
+ */
 public abstract class Cell {
 	private boolean available = true;
 	private String name;

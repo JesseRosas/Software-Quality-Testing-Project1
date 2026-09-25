@@ -6,6 +6,9 @@ import java.util.List;
 import junit.framework.TestCase;
 import edu.towson.cis.cosc442.project1.monopoly.gui.GameBoardUtil;
 
+/**
+ * Represents the GameboardCreationTest component of the Monopoly application.
+ */
 public class GameboardCreationTest extends TestCase{
 	
 	public void testCellAddOrder() {

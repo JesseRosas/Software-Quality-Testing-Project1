@@ -18,6 +18,9 @@ import javax.swing.border.LineBorder;
 
 import edu.towson.cis.cosc442.project1.monopoly.*;
 
+/**
+ * Represents the MainWindow component of the Monopoly application.
+ */
 public class MainWindow extends JFrame implements MonopolyGUI{
 	/**
 	 * 

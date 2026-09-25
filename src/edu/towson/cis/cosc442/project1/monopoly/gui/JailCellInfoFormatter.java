@@ -2,6 +2,9 @@ package edu.towson.cis.cosc442.project1.monopoly.gui;
 
 import edu.towson.cis.cosc442.project1.monopoly.Cell;
 
+/**
+ * Represents the JailCellInfoFormatter component of the Monopoly application.
+ */
 public class JailCellInfoFormatter implements CellInfoFormatter {
 
     public static final String JAIL_CELL_LABEL = "<html><b>Jail</b></html>";

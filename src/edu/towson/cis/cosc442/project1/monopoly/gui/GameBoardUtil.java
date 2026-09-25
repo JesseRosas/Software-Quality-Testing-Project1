@@ -7,6 +7,9 @@ import java.util.List;
 import edu.towson.cis.cosc442.project1.monopoly.Cell;
 import edu.towson.cis.cosc442.project1.monopoly.GameBoard;
 
+/**
+ * Represents the GameBoardUtil component of the Monopoly application.
+ */
 public class GameBoardUtil {
     
 	public static Dimension calculateDimension(int i) {

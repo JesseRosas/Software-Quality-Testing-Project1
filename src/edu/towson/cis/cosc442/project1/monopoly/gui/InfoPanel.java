@@ -6,6 +6,9 @@ import javax.swing.JPanel;
 
 import edu.towson.cis.cosc442.project1.monopoly.GameMaster;
 
+/**
+ * Represents the InfoPanel component of the Monopoly application.
+ */
 public class InfoPanel extends JPanel {
 	/**
 	 * 

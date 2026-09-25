@@ -4,6 +4,9 @@ import java.util.ArrayList;
 
 import junit.framework.TestCase;
 
+/**
+ * Represents the GameMasterTest component of the Monopoly application.
+ */
 public class GameMasterTest extends TestCase {
 
 	GameMaster gameMaster;

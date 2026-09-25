@@ -13,6 +13,9 @@ import javax.swing.JOptionPane;
 import javax.swing.JTextField;
 
 
+/**
+ * Represents the TestDiceRollDialog component of the Monopoly application.
+ */
 public class TestDiceRollDialog extends JDialog {
     /**
 	 * 

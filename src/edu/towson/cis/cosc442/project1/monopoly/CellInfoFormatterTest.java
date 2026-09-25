@@ -4,6 +4,9 @@ import edu.towson.cis.cosc442.project1.monopoly.gui.GoCellInfoFormatter;
 import edu.towson.cis.cosc442.project1.monopoly.gui.InfoFormatter;
 import junit.framework.TestCase;
 
+/**
+ * Represents the CellInfoFormatterTest component of the Monopoly application.
+ */
 public class CellInfoFormatterTest extends TestCase {
     
     public void testGoCellTest() {
@@ -30,7 +33,7 @@ public class CellInfoFormatterTest extends TestCase {
         cell.setColorGroup(propertyColor);
         Player p = new Player();
         p.setName(ownerName);
-        cell.setOwner(p);
+        cell.setTheOwner(p);
         cell.setNumHouses(numHouses);
         assertEquals(propertyLabel, InfoFormatter.cellInfo(cell));
     }

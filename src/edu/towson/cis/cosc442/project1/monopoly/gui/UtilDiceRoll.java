@@ -12,6 +12,9 @@ import javax.swing.JPanel;
 
 import edu.towson.cis.cosc442.project1.monopoly.GameMaster;
 
+/**
+ * Represents the UtilDiceRoll component of the Monopoly application.
+ */
 public class UtilDiceRoll extends JDialog {
 	
 	/**

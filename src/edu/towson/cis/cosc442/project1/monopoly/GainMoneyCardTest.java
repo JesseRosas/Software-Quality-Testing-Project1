@@ -2,6 +2,9 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 import junit.framework.TestCase;
 
+/**
+ * Represents the GainMoneyCardTest component of the Monopoly application.
+ */
 public class GainMoneyCardTest extends TestCase {
     Card gainMoneyCard;
     GameMaster gameMaster;

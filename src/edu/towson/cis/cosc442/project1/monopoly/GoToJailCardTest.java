@@ -2,6 +2,9 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 import junit.framework.TestCase;
 
+/**
+ * Represents the GoToJailCardTest component of the Monopoly application.
+ */
 public class GoToJailCardTest extends TestCase {
     GameMaster gameMaster;
     Card jailCard = new JailCard(Card.TYPE_CC);

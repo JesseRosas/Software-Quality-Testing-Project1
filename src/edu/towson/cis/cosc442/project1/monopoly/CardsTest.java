@@ -2,10 +2,13 @@ package edu.towson.cis.cosc442.project1.monopoly;
 
 import junit.framework.TestCase;
 
+/**
+ * Represents the CardsTest component of the Monopoly application.
+ */
 public class CardsTest extends TestCase {
     Card ccCard;  
     Card chanceCard;
-    // Variables re-written on single line 
+    // Variables re-written on single line
     
     GameMaster gameMaster;
 

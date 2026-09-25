@@ -15,6 +15,9 @@ import javax.swing.border.BevelBorder;
 
 import edu.towson.cis.cosc442.project1.monopoly.*;
 
+/**
+ * Represents the PlayerPanel component of the Monopoly application.
+ */
 public class PlayerPanel extends JPanel {
 
     /**

@@ -7,6 +7,9 @@ import javax.swing.border.BevelBorder;
 
 import edu.towson.cis.cosc442.project1.monopoly.*;
 
+/**
+ * Represents the GUICell component of the Monopoly application.
+ */
 public class GUICell extends JPanel {
 
 	
