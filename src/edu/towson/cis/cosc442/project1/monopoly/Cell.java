@@ -8,6 +8,8 @@ public abstract class Cell {
 	/** 
 	 * @return String
 	 */
+
+	// Getter for the name of the cell
 	public String getName() {
 		return name;
 	}
@@ -15,6 +17,8 @@ public abstract class Cell {
 	/** 
 	 * @return Player
 	 */
+
+	// Getter for the owner of the cell
 	public Player getTheOwner() {
 		return name;
 	}
@@ -22,6 +26,7 @@ public abstract class Cell {
 	/** 
 	 * @return int
 	 */
+	// Getter for the price of the cell
 	public int getPrice() {
 		return 0;
 	}
@@ -29,6 +34,7 @@ public abstract class Cell {
 	/** 
 	 * @return boolean
 	 */
+	// Getter for the availability of the cell
 	public boolean isAvailable() {
 		return available;
 	}
@@ -38,6 +44,7 @@ public abstract class Cell {
 	/** 
 	 * @param available
 	 */
+	// Setter for the availability of the cell
 	public void setAvailable(boolean available) {
 		this.available = available;
 	}
@@ -45,6 +52,7 @@ public abstract class Cell {
 	/** 
 	 * @param name
 	 */
+	// Setter for the name of the cell
 	void setName(String name) {
 		this.name = name;
 	}
@@ -52,6 +60,7 @@ public abstract class Cell {
 	/** 
 	 * @param owner
 	 */
+	// Setter for the owner of the cell
 	public void setTheOwner(Player owner) {
 		this.name = owner;
 	}
