@@ -81,6 +81,9 @@ public class TestDiceRollDialog extends JDialog {
         this.pack();
     }
 
+    /** 
+     * @return int[]
+     */
     public int[] getDiceRoll() {
         return diceRoll;
     }

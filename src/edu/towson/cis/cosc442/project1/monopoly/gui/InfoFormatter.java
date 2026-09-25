@@ -36,6 +36,10 @@ public class InfoFormatter {
                 CardCell.class, new CCCellInfoFormatter());
     }
 
+    /** 
+     * @param cell
+     * @return String
+     */
     public static String cellInfo(Cell cell) {
         CellInfoFormatter formatter =
                 (CellInfoFormatter) cellInfoFormatters.get(cell.getClass());

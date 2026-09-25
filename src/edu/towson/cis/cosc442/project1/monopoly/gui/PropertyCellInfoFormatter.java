@@ -8,6 +8,10 @@ import edu.towson.cis.cosc442.project1.monopoly.PropertyCell;
  * Represents the PropertyCellInfoFormatter component of the Monopoly application.
  */
 public class PropertyCellInfoFormatter implements CellInfoFormatter {
+    /** 
+     * @param cell
+     * @return String
+     */
     public String format(Cell cell) {
         PropertyCell c = (PropertyCell)cell;
         StringBuffer buf = new StringBuffer();

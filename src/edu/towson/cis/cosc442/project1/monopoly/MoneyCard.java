@@ -20,10 +20,16 @@ public class MoneyCard extends Card {
 		currentPlayer.setMoney(currentPlayer.getMoney() + amount);
     }
 
+    /** 
+     * @return int
+     */
     public int getCardType() {
         return cardType;
     }
 
+    /** 
+     * @return String
+     */
     public String getLabel() {
         return label;
     }

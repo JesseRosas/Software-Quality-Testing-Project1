@@ -8,6 +8,10 @@ import edu.towson.cis.cosc442.project1.monopoly.RailRoadCell;
  * Represents the RRCellInfoFormatter component of the Monopoly application.
  */
 public class RRCellInfoFormatter implements CellInfoFormatter {
+    /** 
+     * @param cell
+     * @return String
+     */
     public String format(Cell cell) {
         RailRoadCell c = (RailRoadCell)cell;
         StringBuffer buf = new StringBuffer();

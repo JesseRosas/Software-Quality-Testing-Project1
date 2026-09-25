@@ -10,6 +10,9 @@ import junit.framework.TestCase;
 public class GameMasterTest extends TestCase {
 
 	GameMaster gameMaster;
+	/** 
+	 * @throws Exception
+	 */
 	
 	protected void setUp() throws Exception {
 		gameMaster = GameMaster.instance();

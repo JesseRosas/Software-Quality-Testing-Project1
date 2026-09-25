@@ -12,6 +12,9 @@ public class GoCell extends Cell {
 	public void playAction() {
 	}
 	
+	/** 
+	 * @param name
+	 */
 	void setName(String name) {
 	}
 }
