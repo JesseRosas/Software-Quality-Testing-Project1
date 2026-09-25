@@ -3,7 +3,9 @@ package edu.towson.cis.cosc442.project1.monopoly;
 import junit.framework.TestCase;
 
 public class CardsTest extends TestCase {
-    Card ccCard, chanceCard;
+    Card ccCard;  
+    Card chanceCard;
+    // Variables re-written on single line 
     
     GameMaster gameMaster;
 
